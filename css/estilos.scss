@@ -1,0 +1,112 @@
+$gris: #A4A4A4;
+$blue: #0C96FF;
+$ancho: 100%;
+$light: 200; 
+$number: 2%;
+$transparent: rgba(255,255,255,0.1);
+$white: #fff;
+$number-3: 30px;
+$number-5: 5%;
+
+.logo{
+	width: 150px;
+	margin-top: 7px;
+	margin-bottom: -8px;
+}
+
+.img-principal{
+	background-image:url(../images/1920x665.jpg);
+	width:$ancho;
+	height: 520px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+
+h1{
+	margin-top:185px;
+	font-weight: $light;
+
+}
+
+.white{
+	color:$white;
+}
+
+.btn-opacity{
+	background:$transparent;
+	color: $blue;
+}
+
+.btn-info{
+	border-radius:20px;
+}
+
+.sub-recreate{
+	padding-top: $number-3;
+}
+
+.txt-recreate{
+	padding-bottom: $number-3;
+}
+
+.pdrl-2{
+	padding-right:$number;
+	padding-left:$number;
+}
+
+.pdt-2{
+	padding-top:$number;
+}
+
+.display{
+	display: inline-block;
+	position: absolute;
+}
+.recreate{
+	background: #E6E6E6;
+}
+
+.blue{
+	color: $blue;
+}
+
+/* Boton para regresar al menu*/
+
+#back-to-top{
+	position: fixed;
+	z-index: 1000;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+
+.txt-gris{
+	color: $gris;
+}
+
+.p5{
+	padding-top: $number-5;
+	padding-bottom: $number-5;
+}
+
+.pdtop-2{
+	padding-top: 2%;
+}
+
+.boton{
+	background: $white;
+	border-radius: 100%;
+	border:1px solid $blue;
+	color: $blue;
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	text-align: center;
+	padding-top: .9em;
+
+}
+.pdbtn-2{
+	padding-bottom: $number;
+}
